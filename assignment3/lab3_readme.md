@@ -14,8 +14,8 @@ Questions:
 >queue 0 is the highest priority and queue 15 is the lowest
 
 3) What C expression gives you the first ready process? what if that queue has no ready process?
->rp = rdy_head[q] 
->rp is a pointer to a struct proc 
+>rp = rdy_head[q] \n
+>rp is a pointer to a struct proc \n
 >ready_head is an array of struct proc pointers
 
 >pointer will be updated to point to a new queue. If no queues have ready processes in them, then the lowest queue contains IDLE, which is a program that is always ready.
